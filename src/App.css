@@ -114,3 +114,16 @@ a:hover{
   background-color: #2c724f;
   color: #fff;
 }
+.error .content {
+  padding: 4rem 0;
+}
+.error h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: 17px;
+}
+.error h2 {
+  font-size: 3rem;
+  font-weight: 600;
+
+}
