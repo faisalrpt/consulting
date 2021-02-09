@@ -1,0 +1,67 @@
+
+.team-block .inner-box .image {
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #2c724f;
+}
+.team-block .inner-box .image img {
+    position: relative;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.team-block .inner-box:hover .image .social-box {
+    right: 10px;
+}
+.team-block .inner-box .image .social-box {
+    position: absolute;
+    right: -200px;
+    bottom: 10px;
+    padding: 10px 12px;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: #ffffff;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.team-block .inner-box .image .social-box li:first-child {
+    margin-right: 4px;
+}
+.team-block .inner-box .image .social-box li {
+    position: relative;
+    margin: 0px 8px;
+    display: inline-block;
+}
+.team-block .inner-box .image .social-box li a {
+    position: relative;
+    color: #666666;
+    font-size: 16px;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.lower-box h4 a{
+    color: #000;
+}
+.team-block .inner-box .lower-box {
+    position: relative;
+    padding-top: 30px;
+}
+.team-block .inner-box .image .social-box li a:hover {
+    color: #2c724f;
+}
+.team-block .inner-box:hover .image img {
+    opacity: 0.7;
+    transform: scale(1.05,1.05);
+}

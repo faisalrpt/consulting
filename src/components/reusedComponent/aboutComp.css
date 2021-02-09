@@ -1,0 +1,9 @@
+.about-section {
+    padding-top: 80px;
+    /* padding-bottom: 100px; */
+}
+.about-section .container{
+    position: relative;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #c0c8cd;
+}

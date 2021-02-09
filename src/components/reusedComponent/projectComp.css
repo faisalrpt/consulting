@@ -1,0 +1,57 @@
+.gallery-block {
+    position: relative;
+    margin-bottom: 5px;
+}
+.gallery-block .inner-box {
+    position: relative;
+    overflow: hidden;
+}
+.gallery-block .inner-box .image {
+    position: relative;
+    margin-bottom: 0px;
+}
+.gallery-block .inner-box .image img {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.gallery-block .inner-box:hover .image .overlay-box {
+    bottom: 0px;
+}
+.projectGallry .inner-column {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.projectGallry .column.col-lg-6.col-md-12.col-sm-12 {
+    padding-left: 3px;
+}
+
+.gallery-block .inner-box .image .overlay-box {
+    position: absolute;
+    left: 0px;
+    bottom: -140px;
+    right: 0px;
+    padding: 22px 30px;
+    background-color: #2c724f;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+.gallery-block .inner-box .image .overlay-box .overlay-inner {
+    position: relative;
+}
+.gallery-block .inner-box .image .overlay-box .overlay-inner h3 a {
+    position: relative;
+    color: #ffffff;
+}
+.gallery-block .inner-box .image .overlay-box .overlay-inner .designation {
+    position: relative;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 4px;
+}
+.gallery-block .inner-box:hover .image .overlay-box {
+    bottom: 0px;
+}
